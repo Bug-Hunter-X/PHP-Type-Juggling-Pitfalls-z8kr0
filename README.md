@@ -1,0 +1,1 @@
+This repository demonstrates a common error in PHP caused by type juggling. The `bug.php` file shows code that uses loose comparison, leading to incorrect results when dealing with numeric values that are also considered 'falsy' in a boolean context (like 0). The `bugSolution.php` file provides the corrected code using strict comparison.
